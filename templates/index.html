@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Processor</title>
+</head>
+<body>
+    <h1>PDF Processor</h1>
+    <form action="/process" method="post" enctype="multipart/form-data">
+        <label for="pdfs">Upload PDFs:</label>
+        <input type="file" name="pdfs" id="pdfs" multiple accept=".pdf" required>
+        <br><br>
+        <label for="signature">Upload Signature (optional):</label>
+        <input type="file" name="signature" id="signature" accept=".png,.jpg,.jpeg">
+        <br><br>
+        <button type="submit">Process PDFs</button>
+    </form>
+</body>
+</html>
