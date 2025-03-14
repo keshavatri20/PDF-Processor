@@ -1,0 +1,17 @@
+2025-03-15 00:10:31,639 - ERROR - Error processing file UploadedFile(file_id='e9dc0267-ecfb-463b-a79e-09b6f2bb6586', name='A2_Reply_12_July_2024_compliancee_report_still_being_prepared.pdf', type='application/pdf', size=326406, _file_urls=file_id: "e9dc0267-ecfb-463b-a79e-09b6f2bb6586"
+upload_url: "/_stcore/upload_file/a7682ef7-b04e-44c2-b89a-42649f1e8ff8/e9dc0267-ecfb-463b-a79e-09b6f2bb6586"
+delete_url: "/_stcore/upload_file/a7682ef7-b04e-44c2-b89a-42649f1e8ff8/e9dc0267-ecfb-463b-a79e-09b6f2bb6586"
+): expected str, bytes or os.PathLike object, not UploadedFile
+2025-03-15 00:10:31,641 - ERROR - Error processing file UploadedFile(file_id='4e3634d2-2fee-4c47-90d3-4c96cce1534c', name='A3 Reply dated 09 Dec 2024.pdf', type='application/pdf', size=284781, _file_urls=file_id: "4e3634d2-2fee-4c47-90d3-4c96cce1534c"
+upload_url: "/_stcore/upload_file/a7682ef7-b04e-44c2-b89a-42649f1e8ff8/4e3634d2-2fee-4c47-90d3-4c96cce1534c"
+delete_url: "/_stcore/upload_file/a7682ef7-b04e-44c2-b89a-42649f1e8ff8/4e3634d2-2fee-4c47-90d3-4c96cce1534c"
+): expected str, bytes or os.PathLike object, not UploadedFile
+2025-03-15 00:10:31,643 - ERROR - Error processing file UploadedFile(file_id='a84b5654-79ed-47e5-8363-4b62d0832a5f', name='A4 Reply 31 Dec 2024.pdf', type='application/pdf', size=288727, _file_urls=file_id: "a84b5654-79ed-47e5-8363-4b62d0832a5f"
+upload_url: "/_stcore/upload_file/a7682ef7-b04e-44c2-b89a-42649f1e8ff8/a84b5654-79ed-47e5-8363-4b62d0832a5f"
+delete_url: "/_stcore/upload_file/a7682ef7-b04e-44c2-b89a-42649f1e8ff8/a84b5654-79ed-47e5-8363-4b62d0832a5f"
+): expected str, bytes or os.PathLike object, not UploadedFile
+2025-03-15 00:10:31,645 - ERROR - Error processing file UploadedFile(file_id='c632d933-4f1c-4733-a4f1-22932c2a81bd', name='A8 conditional consent expired.pdf', type='application/pdf', size=1121052, _file_urls=file_id: "c632d933-4f1c-4733-a4f1-22932c2a81bd"
+upload_url: "/_stcore/upload_file/a7682ef7-b04e-44c2-b89a-42649f1e8ff8/c632d933-4f1c-4733-a4f1-22932c2a81bd"
+delete_url: "/_stcore/upload_file/a7682ef7-b04e-44c2-b89a-42649f1e8ff8/c632d933-4f1c-4733-a4f1-22932c2a81bd"
+): expected str, bytes or os.PathLike object, not UploadedFile
+2025-03-15 00:10:31,647 - ERROR - Error merging files: [Errno 2] No such file or directory: 'modified_A2_Reply_12_July_2024_compliancee_report_still_being_prepared.pdf'
