@@ -14,9 +14,17 @@ import logging
 logging.basicConfig(filename='pdf_processing.log', level=logging.ERROR, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Register Arial font (ensure you have arial.ttf and arialbd.ttf in the same directory)
-pdfmetrics.registerFont(TTFont('Arial', 'arial.ttf'))  # Path to Arial regular font file
-pdfmetrics.registerFont(TTFont('Arial-Bold', 'arialbd.ttf'))  # Path to Arial bold font file
+# Register Arial font (ensure you have Arial.ttf and arialbd.ttf in the same directory)
+try:
+    # Use absolute paths for font files
+    arial_path = os.path.join(os.path.dirname(__file__), 'Arial.ttf')
+    arial_bold_path = os.path.join(os.path.dirname(__file__), 'arialbd.ttf')
+
+    pdfmetrics.registerFont(TTFont('Arial', arial_path))  # Path to Arial regular font file
+    pdfmetrics.registerFont(TTFont('Arial-Bold', arial_bold_path))  # Path to Arial bold font file
+except Exception as e:
+    st.error(f"Failed to register fonts: {e}")
+    logging.error(f"Failed to register fonts: {e}")
 
 def extract_annexure_number(filename):
     """Extract annexure number (A1, A2, etc.) from the filename and format it as 'ANNEXURE A-X'."""
